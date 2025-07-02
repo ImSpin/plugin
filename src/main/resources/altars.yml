@@ -1,0 +1,149 @@
+# --- BEGIN: New gods/altars ---
+  abyssal_god:
+    display_name: "Abyssal God"
+    pattern:
+      center: PRISMARINE
+      ring: SEA_LANTERN
+      corners: DARK_PRISMARINE
+    cooldown_seconds: 5400
+    reward: "fallengod:trident_of_the_deep"
+    requirements:
+      item: "fallengod:abyssal_fragment"
+      amount: 7
+    effects:
+      particles: GUARDIAN_ATTACK
+      sound: ENTITY_GUARDIAN_AMBIENT
+
+  sylvan_god:
+    display_name: "Sylvan God"
+    pattern:
+      center: EMERALD_BLOCK
+      ring: MOSS_BLOCK
+      corners: OAK_LOG
+    cooldown_seconds: 5400
+    reward: "fallengod:cloak_of_the_wilds"
+    requirements:
+      item: "fallengod:sylvan_fragment"
+      amount: 7
+    effects:
+      particles: VILLAGER_HAPPY
+      sound: AMBIENT_CAVE
+
+  tempest_god:
+    display_name: "Tempest God"
+    pattern:
+      center: LIGHTNING_ROD
+      ring: IRON_BLOCK
+      corners: WHITE_WOOL
+    cooldown_seconds: 5400
+    reward: "fallengod:boots_of_the_tempest"
+    requirements:
+      item: "fallengod:tempest_fragment"
+      amount: 7
+    effects:
+      particles: CLOUD
+      sound: ENTITY_LIGHTNING_BOLT_THUNDER
+
+  veil_god:
+    display_name: "Veil God"
+    pattern:
+      center: BLACK_CONCRETE
+      ring: OBSIDIAN
+      corners: SOUL_SOIL
+    cooldown_seconds: 5400
+    reward: "fallengod:cloak_of_shadows"
+    requirements:
+      item: "fallengod:veil_fragment"
+      amount: 7
+    effects:
+      particles: SOUL
+      sound: ENTITY_ENDERMAN_TELEPORT
+# --- END: New gods/altars ---
+# Example: Extensible, config-driven altars/gods for the plugin
+# Add as many gods/altars as you want, each with unique patterns, cooldowns, and rewards
+altars:
+  fallen_god:
+    display_name: "Fallen God"
+    pattern:
+      center: ENCHANTING_TABLE
+      ring: GOLD_BLOCK
+      corners: OBSIDIAN
+    cooldown_seconds: 3600
+    reward: "fallengod:testament_complete"
+    requirements:
+      item: "fallengod:testament_fragment"
+      amount: 7
+    effects:
+      particles: SOUL_FIRE_FLAME
+      sound: BLOCK_BEACON_ACTIVATE
+  banishment_god:
+    display_name: "Banishment God"
+    pattern:
+      center: BEACON
+      ring: IRON_BLOCK
+      corners: CRYING_OBSIDIAN
+    cooldown_seconds: 7200
+    reward: "fallengod:heart_of_banishment_god"
+    requirements:
+      item: "fallengod:banishment_fragment"
+      amount: 7
+    effects:
+      particles: ENCHANT
+      sound: ENTITY_ENDER_DRAGON_DEATH
+  abyssal_god:
+    display_name: "Abyssal God"
+    pattern:
+      center: PRISMARINE
+      ring: SEA_LANTERN
+      corners: DARK_PRISMARINE
+    cooldown_seconds: 5400
+    reward: "fallengod:trident_of_the_deep"
+    requirements:
+      item: "fallengod:abyssal_fragment"
+      amount: 7
+    effects:
+      particles: GUARDIAN_ATTACK
+      sound: ENTITY_GUARDIAN_AMBIENT
+  sylvan_god:
+    display_name: "Sylvan God"
+    pattern:
+      center: EMERALD_BLOCK
+      ring: MOSS_BLOCK
+      corners: OAK_LOG
+    cooldown_seconds: 5400
+    reward: "fallengod:cloak_of_the_wilds"
+    requirements:
+      item: "fallengod:sylvan_fragment"
+      amount: 7
+    effects:
+      particles: VILLAGER_HAPPY
+      sound: AMBIENT_CAVE
+  tempest_god:
+    display_name: "Tempest God"
+    pattern:
+      center: LIGHTNING_ROD
+      ring: IRON_BLOCK
+      corners: WHITE_WOOL
+    cooldown_seconds: 5400
+    reward: "fallengod:boots_of_the_tempest"
+    requirements:
+      item: "fallengod:tempest_fragment"
+      amount: 7
+    effects:
+      particles: CLOUD
+      sound: ENTITY_LIGHTNING_BOLT_THUNDER
+  veil_god:
+    display_name: "Veil God"
+    pattern:
+      center: BLACK_CONCRETE
+      ring: OBSIDIAN
+      corners: SOUL_SOIL
+    cooldown_seconds: 5400
+    reward: "fallengod:cloak_of_shadows"
+    requirements:
+      item: "fallengod:veil_fragment"
+      amount: 7
+    effects:
+      particles: SOUL
+      sound: ENTITY_ENDERMAN_TELEPORT
+# Add more gods/altars below as needed

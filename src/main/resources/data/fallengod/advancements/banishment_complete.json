@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Testament of the Banishment God",
+      "color": "white",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore the complete testament of the Banishment God and claim the Heart of Banishment",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:banishment_fragment_7",
+  "criteria": {
+    "complete_testament": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

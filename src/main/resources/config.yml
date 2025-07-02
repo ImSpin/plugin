@@ -1,0 +1,106 @@
+# Fallen God Testament Plugin Configuration
+
+# General Settings
+general:
+  # Plugin prefix for messages
+  prefix: "&8[&6FallenGod&8]"
+  
+  # Enable debug messages
+  debug: false
+
+# Testament Fragment Settings
+testament:
+  # Number of fragments needed to complete the testament
+  total_fragments: 7
+  
+  # Fragments spawn settings
+  fragments:
+    # Chance of fragment spawning in loot chests (0.0 - 1.0)
+    chest_spawn_chance: 0.15
+    
+    # Chance of fragment dropping from specific mobs (0.0 - 1.0)
+    mob_drop_chance: 0.05
+    
+    # World types where fragments can spawn
+    allowed_worlds:
+      - "world"
+      - "world_nether"
+      - "world_the_end"
+
+# Forge Structure Settings
+forge:
+  # Enable automatic forge generation
+  auto_generate: true
+  
+  # Minimum distance between forges
+  min_distance: 5000
+  
+  # Forge generation chance per chunk (0.0 - 1.0)
+  generation_chance: 0.001
+  
+  # Forge structure settings
+  structure:
+    height: 25
+    radius: 15
+
+# Altar Settings
+altar:
+  # Particles around the altar
+  particles:
+    enabled: true
+    type: "SOUL_FIRE_FLAME"
+    count: 10
+  
+  # Sound effects
+  sounds:
+    activation: "BLOCK_BEACON_ACTIVATE"
+    completion: "ENTITY_ENDER_DRAGON_DEATH"
+
+# Messages
+messages:
+  fragment_found: "&6You have discovered a fragment of the ancient testament!"
+  fragment_collected: "&aFragment &e%fragment_name% &ahas been added to your collection!"
+  testament_complete: "&6&lThe Testament of the Fallen God has been restored!"
+  altar_not_found: "&cYou must be at the sacred altar to reunite the testament!"
+  insufficient_fragments: "&cYou need &e%needed% &cmore fragments to complete the testament!"
+  forge_discovered: "&6You have discovered the ancient forge of the fallen god!"
+
+# Rewards Configuration
+rewards:
+  armor:
+    helmet:
+      name: "Helm of the Fallen God"
+      lore:
+        - "Forged in the Nether's heart."
+        - "Bestows divine protection."
+      enchantments:
+        - "protection:4"
+        - "fire_protection:4"
+        - "blast_protection:4"
+    chestplate:
+      name: "Chestplate of the Fallen God"
+      lore:
+        - "Worn by those who restore the Testament."
+        - "Shields against all harm."
+      enchantments:
+        - "protection:4"
+        - "fire_protection:4"
+        - "blast_protection:4"
+    leggings:
+      name: "Leggings of the Fallen God"
+      lore:
+        - "Infused with ancient power."
+        - "Unbreakable resolve."
+      enchantments:
+        - "protection:4"
+        - "fire_protection:4"
+        - "blast_protection:4"
+    boots:
+      name: "Boots of the Fallen God"
+      lore:
+        - "Tread where mortals fear."
+        - "Steps echo in eternity."
+      enchantments:
+        - "protection:4"
+        - "fire_protection:4"
+        - "blast_protection:4"

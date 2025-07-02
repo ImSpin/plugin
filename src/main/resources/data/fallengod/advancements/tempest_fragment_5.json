@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
+    },
+    "title": {
+      "text": "Tempest Fragment V",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Discover the fifth fragment of the Tempest God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:tempest_fragment_4",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

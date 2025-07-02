@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Banishment Fragment VII",
+      "color": "white"
+    },
+    "description": {
+      "text": "Find the final fragment of the Banishment God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:banishment_fragment_6",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

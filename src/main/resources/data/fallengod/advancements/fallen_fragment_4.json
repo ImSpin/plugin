@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:echo_shard"
+    },
+    "title": {
+      "text": "Fragment of Destruction",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Locate the fourth fragment of the Fallen God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:fallen_fragment_3",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

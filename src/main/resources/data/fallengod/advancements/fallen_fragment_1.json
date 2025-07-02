@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:echo_shard"
+    },
+    "title": {
+      "text": "Fragment of Creation",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Discover the first fragment of the Fallen God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:testament_of_gods",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

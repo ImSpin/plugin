@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "text": "Testament of the Sylvan God",
+      "color": "green",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore the complete testament of the Sylvan God and claim the Cloak of the Wilds",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:sylvan_fragment_7",
+  "criteria": {
+    "complete_testament": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

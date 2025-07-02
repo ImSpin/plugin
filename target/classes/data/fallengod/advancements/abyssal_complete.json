@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "text": "Testament of the Abyssal God",
+      "color": "dark_aqua",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore the complete testament of the Abyssal God and claim the Trident of the Deep",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:abyssal_fragment_7",
+  "criteria": {
+    "complete_testament": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

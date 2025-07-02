@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_soil"
+    },
+    "title": {
+      "text": "Veil Fragment V",
+      "color": "dark_gray"
+    },
+    "description": {
+      "text": "Discover the fifth fragment of the Veil God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:veil_fragment_4",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

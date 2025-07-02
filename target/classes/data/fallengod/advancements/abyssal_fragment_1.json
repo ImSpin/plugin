@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "text": "Abyssal Fragment I",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Discover the first fragment of the Abyssal God's testament",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "fallengod:testament_of_gods",
+  "criteria": {
+    "get_fragment": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

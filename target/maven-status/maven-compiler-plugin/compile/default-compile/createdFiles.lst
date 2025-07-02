@@ -1,0 +1,12 @@
+com\fallengod\testament\commands\LocateAltarCommand.class
+com\fallengod\testament\altars\AltarManager.class
+com\fallengod\testament\altars\AltarType.class
+com\fallengod\testament\listeners\AltarInteractionListener.class
+com\fallengod\testament\advancements\AdvancementManager.class
+com\fallengod\testament\items\FragmentManager$FragmentType.class
+com\fallengod\testament\world\AltarPlacementManager.class
+com\fallengod\testament\items\FragmentManager.class
+com\fallengod\testament\FallenGodPlugin.class
+com\fallengod\testament\commands\TestamentCommand.class
+com\fallengod\testament\commands\GenerateAltarCommand.class
+com\fallengod\testament\listeners\PlayerEventListener.class

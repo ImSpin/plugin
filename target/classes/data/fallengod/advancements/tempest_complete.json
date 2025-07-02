@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots"
+    },
+    "title": {
+      "text": "Testament of the Tempest God",
+      "color": "yellow",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore the complete testament of the Tempest God and claim the Boots of the Tempest",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:tempest_fragment_7",
+  "criteria": {
+    "complete_testament": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

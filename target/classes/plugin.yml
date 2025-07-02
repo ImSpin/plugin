@@ -1,0 +1,45 @@
+name: FallenGodTestament
+version: '1.7.0'
+main: com.fallengod.testament.FallenGodPlugin
+api-version: '1.21'
+prefix: FallenGod
+authors: [YourName]
+description: A plugin about reuniting the scattered testament of a fallen god
+website: https://github.com/yourname/fallen-god-testament
+
+commands:
+  testament:
+    description: Testament related commands
+    usage: /<command> [subcommand]
+    permission: fallengod.testament.use
+    permission-message: You do not have permission to use testament commands
+  locatealtar:
+    description: Locate a specific god's altar
+    usage: /locatealtar <abyssal|sylvan|tempest>
+    permission: fallengod.testament.find
+  locateshadowaltar:
+    description: Locate the shadow altar (veil god) in The End
+    usage: /locateshadowaltar
+    permission: fallengod.testament.find
+  generatealtars:
+    description: Generate all altars in the world and The End
+    usage: /generatealtars
+    permission: fallengod.admin.generate
+
+permissions:
+  fallengod.*:
+    description: Gives access to all FallenGod permissions
+    children:
+      fallengod.testament.*: true
+      fallengod.admin.*: true
+  fallengod.testament.*:
+    description: Gives access to all testament permissions
+    children:
+      fallengod.testament.use: true
+      fallengod.testament.find: true
+  fallengod.admin.*:
+    description: Gives access to all admin permissions
+    children:
+      fallengod.admin.reload: true
+      fallengod.admin.give: true
+      fallengod.admin.forge: true

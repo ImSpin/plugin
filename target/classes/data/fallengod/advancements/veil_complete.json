@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "text": "Testament of the Veil God",
+      "color": "dark_gray",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore the complete testament of the Veil God and claim the Cloak of Shadows",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:veil_fragment_7",
+  "criteria": {
+    "complete_testament": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

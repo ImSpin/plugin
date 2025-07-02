@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_egg"
+    },
+    "title": {
+      "text": "Master of All Testaments",
+      "color": "light_purple",
+      "bold": true
+    },
+    "description": {
+      "text": "Restore all six divine testaments and become a legend among mortals",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fallengod:testament_of_gods",
+  "criteria": {
+    "master_achievement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

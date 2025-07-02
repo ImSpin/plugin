@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "text": "Testament of the Gods",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Begin your journey to restore the scattered testaments of the fallen gods",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "entered_world": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
